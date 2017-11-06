@@ -10,9 +10,11 @@ $(function(){
 	loginStatus();
 });
 
-statusChangeCallback(response){
+function statusChangeCallback(response){
 	alert();
 }//statusChangeCallback
+
+
 //funciones de facebook
 function loginStatus(){
 	FB.getLoginStatus(function(response) {
