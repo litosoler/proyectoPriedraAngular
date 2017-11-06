@@ -4,8 +4,16 @@
 	<title>Proyecto Final</title>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=380644519034724';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
-	<script>
+	<!-- <script>
 	  window.fbAsyncInit = function() {
 	    FB.init({
 	      appId      : '380644519034724',
@@ -25,9 +33,9 @@
 	     js.src = "https://connect.facebook.net/en_US/sdk.js";
 	     fjs.parentNode.insertBefore(js, fjs);
 	   }(document, 'script', 'facebook-jssdk'));
-	</script>
-		<h1>Hola mundo!!</h1>
+	</script> -->
 
+	<div class="fb-login-button" data-max-rows="2" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 </body>
