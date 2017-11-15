@@ -3,7 +3,7 @@ var estado = {fb:false};
 var panel1 =    '<div class="offset-md-4 col-md-4 panel-1"> '+
 					'<div class="col-md-12">' +
 						'<center>' +
-							'<img id="user-foto" src="../img/usuario.png">' +
+							'<img id="user-foto" src="img/usuario.png">' +
 							 '<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" ' +
 							'data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false" onlogin="checkLoginState()"></div>'  +
 						'</center>' +
@@ -13,7 +13,7 @@ var panel1 =    '<div class="offset-md-4 col-md-4 panel-1"> '+
 var panel2 =	'<div class="col-md-8 panel-2">' +
 							'<div class="col-md-12">' +
 							'<center>' +
-							'<img id="img-log" src="../img/loggin.png">' +
+							'<img id="img-log" src="img/loggin.png">' +
 							'</center>' +
 							'</div>' +
 						'</div>' ;
