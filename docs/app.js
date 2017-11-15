@@ -1,4 +1,4 @@
-//objetos de estado
+// objetos de estado
 
 //funciones que cambian los atributos de los objetos de estado
 

@@ -1,42 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Proyecto Final</title>
-</head>
-<body>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=380644519034724';
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+<!doctype html>
+<html lang="spa">
+  <head>
+    <title>Proyecto Final</title>
 
-	<!-- <script>
-	  window.fbAsyncInit = function() {
-	    FB.init({
-	      appId      : '380644519034724',
-	      cookie     : true,
-	      xfbml      : true,
-	      version    : 'v2.10'
-	    });
-	      
-	    FB.AppEvents.logPageView();   
-	      
-	  };
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	  (function(d, s, id){
-	     var js, fjs = d.getElementsByTagName(s)[0];
-	     if (d.getElementById(id)) {return;}
-	     js = d.createElement(s); js.id = id;
-	     js.src = "https://connect.facebook.net/en_US/sdk.js";
-	     fjs.parentNode.insertBefore(js, fjs);
-	   }(document, 'script', 'facebook-jssdk'));
-	</script> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+  	<header class="container">
+  		<center class="row">
+  			<div class="col-md-12">
+  			<h1 >Titulo.....</h1>
+  			<h9 >Descripcion del titulo.......................................</h9>
+  			</div>
+  		</center>
+  	</header>
+  	<main class="container">
 
-	<div class="fb-login-button" data-max-rows="2" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script type="text/javascript" src="app.js"></script>
-</body>
+  		<section id="grid-list" class="row">
+  			<div class="col-md-4">
+  				<div class="col-md-12 formato-1"></div>
+  				<div class="col-md-12 formato-3"></div>
+  			</div>
+  			<div class="col-md-4">
+  				<div class="col-md-12 formato-3"></div>
+  				<div class="col-md-12 formato-1"></div>
+  			</div>
+  			<div class="col-md-4">
+  				<div class="col-md-12 formato-1"></div>
+  				<div class="col-md-12 formato-3"></div>
+  			</div>
+  		</section>
+
+  		<section id="secction-two" class="row">
+  			<div class="col-md-4 panel-1">
+  				<div></div>
+  			</div>
+  			<div class="col-md-8 panel-2">
+  				<div></div>
+  			</div>
+
+  		</section>
+
+  	</main>
+
+  	<footer class="container-fluid">
+  		<div class="row">
+  			
+  		</div>
+  	</footer>
+
+
+
+  	<!-- Optional JavaScript -->
+  	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="app.js"></script>
+
+  </body>
 </html>
