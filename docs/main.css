@@ -8,7 +8,7 @@ body{
 }
 
 .loading {
-    background: url('../img/ico_loading.gif') no-repeat center center;
+    background: url('img/ico_loading.gif') no-repeat center center;
      /*Esta parte hará la función de cargador mientras aparece el contenido*/
 }
 
@@ -58,21 +58,30 @@ footer{
   	bottom: 0;
 }
 
+#parte-dos{
+	color: black;
+	font-size: 20px;
+}
+
 .panel-1{
 	padding-left: 0px;
 }
 
 .panel-2{
-	padding-right:  0px;
+	height: 450px; 
+	padding: 0px 40px 0px 40px;	
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://scontent.xx.fbcdn.net/v/t1.0-9/18009998_443726135976204_3149659819624588223_n.jpg?oh=b26ee46567f20e401236946a3885d663&oe=5A961186");
+
+      background-size: cover;
 }
 .panel-1 > div{
 	height: 450px; 
 	background-color: #47525E;
-}
-.panel-2 > div{
-	height: 450px; 
-	background-color: #47525E;
-
 }
 
 #user-foto{
@@ -85,4 +94,43 @@ footer{
 #img-log{
     margin-top: 18px;
     max-width: 400px;
-}}
+}
+
+#user-foto{
+	border-radius: 126px;
+}
+
+.panel-2>.opp>div:first-child {
+	padding: 20px 0px 20px 0px;
+}
+.panel-2>.opp>div:last-child {
+ padding: 0px 0px 0px 40px;
+ margin: auto;
+}
+
+center>span:last-child {
+ font-size: 34px;
+}
+
+center>span{
+ font-size: 34px;
+}
+center>span>span{
+	font-family: 'Pacifico', cursive;
+}
+
+ul>li>span{
+	font-family: 'Pacifico', cursive;
+}
+li{
+	margin-bottom: 15px;
+}
+
+
+.opp{
+  font: 14px Sans-Serif;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  margin-top: 100px;
+  padding: 0px 0px 33px 0px;
+}
