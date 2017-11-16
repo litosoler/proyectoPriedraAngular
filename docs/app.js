@@ -25,7 +25,7 @@ var panel2 ='<div class="col-md-8 panel-2">' +
 							'<ul>' + 
 								'<li>Email:  <span id="js-userEmail">Nombre Usuario</span></li>' + 
 								'<li>Time Zone:  <span id="js-timeZone">Nombre Usuario</span></li>' + 
-								'<li>Verified:  <span id="js-verified">Nombre Usuario</span></li>' + 
+								'<li>link:  <span id="js-link"><a target="_blank">Ir a mi Perfil </a></span></li>' + 
 							'</ul>' + 
 						'</div>' + 
 					'</div>' + 
@@ -46,7 +46,8 @@ function mostrarInfoBasica(response, picture){
  	$("#js-userAge").html("+"+response.age_range.min);
  	$("#js-userEmail").html(response.email);
  	$("#js-timeZone").html(response.timezone);
- 	$("#js-verified").html(response.verified);
+ 	$("#js-link a").attr("href",response.link);
+
 }
 
 
@@ -90,9 +91,10 @@ function sesionInactiva2(){
 		++contador;
 		console.log(contador);
 	}
-	if (++contador % 2 == 0 && estado.fb === true){ 
+	if (++contador % 2 == 0 && estado.fb === true){
 	$("#parte-dos").hide();
 	$(".panel-2").hide();
+	$("#user-foto").attr("src", "img/usuario.png");
 	$(".panel-1").addClass("offset-md-4");
     $("#parte-dos").show(600);
     	$('html,body').animate({

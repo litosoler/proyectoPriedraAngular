@@ -81,7 +81,7 @@ footer{
 }
 .panel-1 > div{
 	height: 450px; 
-	background-color: #47525E;
+	background: rgba(70, 82, 93, 0.85)	;
 }
 
 #user-foto{
